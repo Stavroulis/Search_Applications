@@ -573,7 +573,11 @@
             "in particular a working position",
             "gradually brake movement",
             "desired position",
-            "disc brake"
+            "disc brake",
+            "brake disc or brake disc segment",
+            "lever element",
+            "first actuator",
+            "pivot axis"
         ],
         "Heads": [
             "apparatus"
@@ -582,17 +586,22 @@
             "apparatus": [
                 "10UG (apparatus, test vehicle)",
                 "10UG (apparatus, wheel adapter element, test vehicle)",
+                "10UG (apparatus, wheel adapter element, particular translatory, holding device, disc brake, brake disc or brake disc segment)",
                 "10UG (apparatus, wheel adapter element, particular translatory, holding device, disc brake)",
                 "10UG (apparatus, wheel adapter element, particular translatory, holding device)",
                 "10UG (apparatus, wheel adapter element, particular translatory)",
                 "10UG (apparatus, wheel adapter element)",
-                "10UG (apparatus, holding device, disc brake)",
-                "10UG (apparatus, holding device)",
                 "10UG (apparatus, any desired position)",
                 "10UG (apparatus, in particular a working position)",
                 "10UG (apparatus, gradually brake movement)",
                 "10UG (apparatus, desired position)",
-                "10UG (apparatus, disc brake)"
+                "10UG (apparatus, disc brake, brake disc or brake disc segment)",
+                "10UG (apparatus, disc brake)",
+                "10UG (apparatus, brake disc or brake disc segment)",
+                "10UG (apparatus, lever element, first actuator)",
+                "10UG (apparatus, lever element)",
+                "10UG (apparatus, first actuator)",
+                "10UG (apparatus, pivot axis)"
             ]
         }
     },

@@ -44,7 +44,7 @@ def create_graph_new(df):
     
     for idx, row in df.iterrows():
         node = row['a_list']
-        claim = row[Cl_nr]
+        claim = row['Cl_nr']
         
         if pd.notna(node) and node.strip():
             if node not in node_colors:
@@ -273,7 +273,7 @@ def concatatened_dataframe(data):
     
     # Create a DataFrame
     df = pd.DataFrame(rows, columns=['index', 'a_list', 'prep_list', 'the_list', 'Cl_nr'])
-    st.dataframe(df)
+    #st.dataframe(df)
     return df
 
 def main():

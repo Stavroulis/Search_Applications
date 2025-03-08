@@ -248,8 +248,6 @@ def save_concatenated_dataframe(file_path: Path, concatenated_data: dict) -> Non
     with open(file_path, "w", encoding="utf-8") as f:
         json.dump(saved_data, f, indent=4, ensure_ascii=False)
 
-    st.success(f"Concatenated DataFrame saved successfully to {file_path}")
-
 def save_data(filename: str, claims: list[str], features: dict, edited_features: dict) -> None:
     """Saves claims, extracted features, and edited features to Summary_filename.json."""
     data_dir = Path(f"data/{filename}")
