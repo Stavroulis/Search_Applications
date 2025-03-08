@@ -1,0 +1,15 @@
+1. An apparatus (100) for introducing force into a test vehicle, wherein the apparatus (100) comprises: a wheel adapter element (102) configured to be connected to a test vehicle; at least one first loading arrangement (108) for moving the wheel adapter element (102) in a first, in particular translatory, direction; a holding device (150) which is connected to the first loading arrangement and is configured to fix the first loading arrangement in any desired position, in particular a working position, wherein the holding device (150) is controllable independently of the first loading arrangement (108).
+
+2. The apparatus (100) of claim 1, wherein the holder (150) is configured to gradually brake movement of the first loading assembly (108) until the first loading assembly (108) rests in a desired position and is fixed by the holder (150).
+
+3. The apparatus (100) of claim 2, wherein the holding device (150) comprises a disc brake to gradually brake the movement of the loading assembly (108).
+
+4. The apparatus (100) of claim 3, wherein the disc brake comprises a brake disc or brake disc segment (154) attached to the first loading assembly (108).
+
+5. The apparatus (100) according to claim 4, wherein the first loading arrangement (108) comprises a lever element (120), in particular a single-armed lever, which is arranged between a first actuator (118) and the wheel adapter element (102) in order to move the wheel adapter element (102) in the first direction, and wherein the brake disc or the brake disc segment (154) is fastened to a pivot axis (152) of the lever element (120).
+
+6. The apparatus (100) according to claim 5, wherein the first loading arrangement (108) comprises a transmission element (122), in particular a coupling rod, which is arranged between the lever element (120) and the wheel adapter element.
+
+7. The apparatus (100) of claim 6, wherein the apparatus further comprises: a second loading arrangement (104) for moving the wheel adapter element (102) in a second, in particular translatory, direction, wherein the second direction runs substantially orthogonally to the first direction; a third loading arrangement (110) for moving the wheel adapter element (102) in a third, in particular translatory, direction, wherein the third direction runs substantially orthogonally to the first and second direction, wherein the transmission element (122) of the first load arrangement (108) is articulated in a three-joint node (130) to transmission elements (114, 128) of the second and third load arrangements.
+
+8. The apparatus (100) according to any one of claims 1 to 7, wherein the holding device (150) comprises at least one fixing element (156) for activating the holding device (150), wherein the fixing element (156) is connected to a holder of the holding device (150) via at least one elastic buffer element (214, 216, 218, 220).

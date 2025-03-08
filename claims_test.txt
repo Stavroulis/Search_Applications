@@ -1,0 +1,3 @@
+1. A helium leak detection apparatus for use with a container comprising a sealing member arranged to seal a first external access point, the apparatus comprising: a fitting configured to enclose at least a portion of the container; and a holder configured to hold the sealing member of the container in place when a differential pressure is applied across the sealing member.
+
+2. The apparatus of claim 1, wherein the differential pressure is applied by a vacuum at either a first side of the sealing member or a second side of the sealing member.

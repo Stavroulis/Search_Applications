@@ -1,0 +1,33 @@
+1. A method for state-of-health monitoring of a powertrain component in an electric vehicle system, comprising: determining an equivalent circuit model of the powertrain component; modeling heat losses in the powertrain component considering both transient and steadystate conditions; modeling heat flow through the powertrain component based on one or more material properties of the powertrain component; determining a temperature of a particular structure within the powertrain component; and determining, using a Rainflow algorithm, a number of temperature cycles until failure of the particular structure based on the temperature of the particular structure.
+
+2. The method of Claim 1, wherein determining the number of temperature cycles until failure includes determining an applied stress in the particular structure.
+
+3. The method of Claim 2, wherein determining the stresses in the particular structure includes using an Arrhenius model of a material of the particular structure.
+
+4. The method of Claim 1, wherein determining the number of temperature cycles until failure includes using a Coffin-Manson relationship.
+
+35
+
+5. The method of Claim 1, further comprising: calculating a degradation of a material in the powertrain component.
+
+6. The method of Claim 1, wherein calculating the degradation of the material in the powertrain component includes applying Miner's rule for modeling cumulative damage.
+
+7. The method of Claim 1, further comprising: determining a remaining useful lifetime of the powertrain component.
+
+8. The method of Claim 1, wherein the particular element is a junction in a power electronic device.
+
+9. The method of Claim 8, wherein powertrain component includes an inverter power module, and the power electronic device includes one of a switch and a diode.
+
+10. A system for state-of-health monitoring of a powertrain component in an electric vehicle system, comprising: a processor; and a memory including instructions that, when executed by the processor, cause the processor to: determine an equivalent circuit model of the powertrain component; determine an estimate of heat losses in the powertrain component considering both transient and steady-state conditions;
+
+36 determine an estimate of heat flow through the powertrain component based on one or more material properties of the powertrain component; determine a temperature of a particular structure within the powertrain component; and determine, using a Rainflow algorithm, a number of temperature cycles until failure of the particular structure based on the temperature of the particular structure.
+
+11. The system of Claim 10, wherein determining the number of temperature cycles until failure includes determining an applied stress in the particular structure.
+
+12. The system of Claim 11, wherein determining the stresses in the particular structure includes using an Arrhenius model of a material of the particular structure.
+
+13. The system of Claim 10, wherein determining the number of temperature cycles until failure includes using a Coffin-Manson relationship.
+
+14. The system of Claim 10, wherein the instructions further cause the processor to: calculate a degradation of a material in the powertrain component.
+
+15. The system of Claim 10, wherein calculating the degradation of the material in the powertrain component includes applying Miner's rule for modeling cumulative damage.
