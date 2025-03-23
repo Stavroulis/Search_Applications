@@ -327,7 +327,9 @@ def main():
     display_graph_controls(G)
 
     # Save Network Button
-    st.button("Save", on_click=lambda: save_network(G, file_path), type="primary", use_container_width=True)
+    if st.button("Save", type="primary", use_container_width=True):
+        save_network(G, file_path)
+        st.session_state["graph_saved"] = True
 
 if __name__ == "__main__":
     main()
