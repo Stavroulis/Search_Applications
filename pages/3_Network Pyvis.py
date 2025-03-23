@@ -162,36 +162,40 @@ def display_pyvis_graph(G):
     return net
 
 def save_network(G, file_path):
-    # Ensure no empty string nodes exist
     if "" in G.nodes:
         G.remove_node("")
-    
+
+    # Prepare network data
     network_data = {
         "nodes": [{"id": node, "color": G.nodes[node].get("color", "lightblue")} for node in G.nodes],
         "edges": [{"source": edge[0], "target": edge[1], "label": G.edges[edge].get("label", "")} for edge in G.edges],
     }
 
-    # Load existing data
+    # Ensure correct JSON structure
+    data = {}
     if file_path.exists():
-        with open(file_path, "r", encoding="utf-8") as f:
-            data = json.load(f)
-    else:
-        data = {}
+        try:
+            with open(file_path, "r", encoding="utf-8") as f:
+                data = json.load(f)
+        except json.JSONDecodeError:
+            data = {}  # Reset if the JSON is corrupted
 
-    # Update and save network data
     data["Network"] = network_data
+
+    # Debugging: Print JSON before saving
+    print(json.dumps(data, indent=4))
+
+    # Write updated JSON
     with open(file_path, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=4)
 
+    st.success(f"Graph saved successfully to {file_path}")
+
 def display_color_legend(num_claims):
-    num_cols = max(1, num_claims)  # Ensure at least 1 column
-    cols = st.columns(num_cols)
-    for i, color in enumerate(COLORS[:num_cols]):
-        cols[i].markdown(
-            f'<div style="display: flex; align-items: center;">'
-            f'<span style="margin-right: 5px;">Cl_{i+1}</span>'
-            f'<div style="width: 20px; height: 20px; background-color: {color}; border-radius: 50%;"></div>'
-            f'</div>',
+    st.subheader("Claim Color Legend")
+    for i in range(num_claims):
+        st.markdown(
+            f'<span style="color: {COLORS[i]}; font-weight: bold;">■ Claim {i+1}</span>',
             unsafe_allow_html=True
         )
 
@@ -299,8 +303,17 @@ def main():
 
     # Create or load graph
     if "G" not in st.session_state:
-        G = create_graph(df)
-        st.session_state["G"] = G  # Save graph in session state
+        if "Network" in data:
+            # Reconstruct graph from saved JSON
+            G = nx.DiGraph()
+            for node in data["Network"]["nodes"]:
+                G.add_node(node["id"], color=node.get("color", "lightblue"))
+            for edge in data["Network"]["edges"]:
+                G.add_edge(edge["source"], edge["target"], label=edge.get("label", ""))
+            st.session_state["G"] = G
+        else:
+            G = create_graph(df)
+            st.session_state["G"] = G
     else:
         G = st.session_state["G"]
 

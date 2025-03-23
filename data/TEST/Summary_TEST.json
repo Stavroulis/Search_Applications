@@ -106,31 +106,15 @@
         "Cl_1": [
             "An apparatus",
             "a test vehicle",
-            "the apparatus",
             "a wheel adapter element",
-            "the wheel adapter element",
             "particular translatory",
             "a holding device",
-            "the first loading arrangement",
             "any desired position",
-            "in particular a working position",
-            "the holding device",
-            "",
-            "",
-            "",
-            ""
+            "in particular a working position"
         ],
         "Cl_2": [
-            "The apparatus",
-            "the holder",
             "gradually brake movement",
-            "the first loading assembly",
-            "the first loading assembly rests",
             "a desired position",
-            "",
-            "",
-            "",
-            "",
             "",
             "",
             "",
@@ -138,15 +122,7 @@
             ""
         ],
         "Cl_3": [
-            "The apparatus",
-            "the holding device",
             "a disc brake",
-            "the movement",
-            "the loading assembly",
-            "",
-            "",
-            "",
-            "",
             "",
             "",
             "",
@@ -155,15 +131,7 @@
             ""
         ],
         "Cl_4": [
-            "The apparatus",
-            "the disc brake",
             "a brake disc or brake disc segment",
-            "the first loading assembly",
-            "",
-            "",
-            "",
-            "",
-            "",
             "",
             "",
             "",
@@ -172,33 +140,17 @@
             ""
         ],
         "Cl_5": [
-            "The apparatus",
-            "the first loading arrangement",
             "a lever element",
             "a first actuator",
-            "the wheel adapter element",
-            "the first direction",
-            "the brake disc",
-            "the brake disc segment",
             "a pivot axis",
-            "the lever element",
-            "",
             "",
             "",
             "",
             ""
         ],
         "Cl_6": [
-            "The apparatus",
-            "the first loading arrangement",
             "a transmission element",
             "in particular a coupling rod",
-            "the lever element",
-            "the wheel adapter element",
-            "",
-            "",
-            "",
-            "",
             "",
             "",
             "",
@@ -206,34 +158,18 @@
             ""
         ],
         "Cl_7": [
-            "The apparatus",
-            "the apparatus",
             "a second loading arrangement",
-            "the wheel adapter element",
             "particular translatory",
-            "the second direction",
-            "the first direction",
             "a third loading arrangement",
             "a third",
-            "the third direction",
-            "the first and second direction",
-            "the transmission element",
-            "the first load arrangement",
             "transmission elements",
-            "the second and third load arrangements"
+            "",
+            ""
         ],
         "Cl_8": [
-            "The apparatus",
-            "the holding device",
             "at least one fixing element",
-            "the fixing element",
             "a holder",
             "at least one elastic buffer element",
-            "",
-            "",
-            "",
-            "",
-            "",
             "",
             "",
             "",
@@ -1110,6 +1046,471 @@
             "holding device",
             "",
             ""
+        ],
+        "Cl_nr": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "5",
+            "5",
+            "5",
+            "5",
+            "5",
+            "5",
+            "5",
+            "5",
+            "5",
+            "5",
+            "5",
+            "5",
+            "5",
+            "5",
+            "5",
+            "5",
+            "5",
+            "5",
+            "5",
+            "5",
+            "5",
+            "6",
+            "6",
+            "6",
+            "6",
+            "6",
+            "6",
+            "6",
+            "6",
+            "6",
+            "6",
+            "7",
+            "7",
+            "7",
+            "7",
+            "7",
+            "7",
+            "7",
+            "7",
+            "7",
+            "7",
+            "7",
+            "7",
+            "7",
+            "7",
+            "7",
+            "7",
+            "7",
+            "7",
+            "7",
+            "7",
+            "7",
+            "7",
+            "7",
+            "7",
+            "7",
+            "7",
+            "7",
+            "7",
+            "7",
+            "7",
+            "7",
+            "7",
+            "8",
+            "8",
+            "8",
+            "8",
+            "8",
+            "8",
+            "8",
+            "8",
+            "8",
+            "8",
+            "8",
+            "8",
+            "8",
+            "8",
+            "8"
         ]
+    },
+    "Network": {
+        "nodes": [
+            {
+                "id": "apparatus",
+                "color": "red"
+            },
+            {
+                "id": "test vehicle",
+                "color": "red"
+            },
+            {
+                "id": "wheel adapter element",
+                "color": "red"
+            },
+            {
+                "id": "particular translatory",
+                "color": "red"
+            },
+            {
+                "id": "holding device",
+                "color": "red"
+            },
+            {
+                "id": "any desired position",
+                "color": "red"
+            },
+            {
+                "id": "in particular a working position",
+                "color": "red"
+            },
+            {
+                "id": "gradually brake movement",
+                "color": "orange"
+            },
+            {
+                "id": "desired position",
+                "color": "orange"
+            },
+            {
+                "id": "disc brake",
+                "color": "lime"
+            },
+            {
+                "id": "brake disc or brake disc segment",
+                "color": "turquoise"
+            },
+            {
+                "id": "lever element",
+                "color": "hotpink"
+            },
+            {
+                "id": "first actuator",
+                "color": "hotpink"
+            },
+            {
+                "id": "pivot axis",
+                "color": "hotpink"
+            },
+            {
+                "id": "transmission element",
+                "color": "khaki"
+            },
+            {
+                "id": "in particular a coupling rod",
+                "color": "khaki"
+            },
+            {
+                "id": "second loading arrangement",
+                "color": "blue"
+            },
+            {
+                "id": "third loading arrangement",
+                "color": "blue"
+            },
+            {
+                "id": "third",
+                "color": "blue"
+            },
+            {
+                "id": "transmission elements",
+                "color": "blue"
+            },
+            {
+                "id": "at least one fixing element",
+                "color": "green"
+            },
+            {
+                "id": "holder",
+                "color": "green"
+            },
+            {
+                "id": "at least one elastic buffer element",
+                "color": "green"
+            }
+        ],
+        "edges": [
+            {
+                "source": "apparatus",
+                "target": "test vehicle",
+                "label": "for introducing force into"
+            },
+            {
+                "source": "apparatus",
+                "target": "wheel adapter element",
+                "label": "comprises:"
+            },
+            {
+                "source": "apparatus",
+                "target": "second loading arrangement",
+                "label": "further comprises:"
+            },
+            {
+                "source": "apparatus",
+                "target": "any desired position",
+                "label": ""
+            },
+            {
+                "source": "apparatus",
+                "target": "in particular a working position",
+                "label": ""
+            },
+            {
+                "source": "apparatus",
+                "target": "gradually brake movement",
+                "label": ""
+            },
+            {
+                "source": "apparatus",
+                "target": "desired position",
+                "label": ""
+            },
+            {
+                "source": "apparatus",
+                "target": "disc brake",
+                "label": ""
+            },
+            {
+                "source": "apparatus",
+                "target": "brake disc or brake disc segment",
+                "label": ""
+            },
+            {
+                "source": "apparatus",
+                "target": "lever element",
+                "label": ""
+            },
+            {
+                "source": "apparatus",
+                "target": "first actuator",
+                "label": ""
+            },
+            {
+                "source": "apparatus",
+                "target": "pivot axis",
+                "label": ""
+            },
+            {
+                "source": "apparatus",
+                "target": "transmission element",
+                "label": ""
+            },
+            {
+                "source": "apparatus",
+                "target": "in particular a coupling rod",
+                "label": ""
+            },
+            {
+                "source": "apparatus",
+                "target": "third loading arrangement",
+                "label": ""
+            },
+            {
+                "source": "apparatus",
+                "target": "third",
+                "label": ""
+            },
+            {
+                "source": "apparatus",
+                "target": "transmission elements",
+                "label": ""
+            },
+            {
+                "source": "apparatus",
+                "target": "at least one fixing element",
+                "label": ""
+            },
+            {
+                "source": "apparatus",
+                "target": "holder",
+                "label": ""
+            },
+            {
+                "source": "apparatus",
+                "target": "at least one elastic buffer element",
+                "label": ""
+            },
+            {
+                "source": "wheel adapter element",
+                "target": "test vehicle",
+                "label": "configured to be connected to"
+            },
+            {
+                "source": "wheel adapter element",
+                "target": "particular translatory",
+                "label": "in a second, in"
+            },
+            {
+                "source": "wheel adapter element",
+                "target": "third",
+                "label": "in"
+            },
+            {
+                "source": "particular translatory",
+                "target": "holding device",
+                "label": "direction;"
+            },
+            {
+                "source": "holding device",
+                "target": "disc brake",
+                "label": "comprises"
+            },
+            {
+                "source": "holding device",
+                "target": "at least one fixing element",
+                "label": "comprises"
+            },
+            {
+                "source": "holding device",
+                "target": "at least one elastic buffer element",
+                "label": "via"
+            },
+            {
+                "source": "disc brake",
+                "target": "brake disc or brake disc segment",
+                "label": "comprises"
+            },
+            {
+                "source": "lever element",
+                "target": "first actuator",
+                "label": "in particular a single-armed lever, which is arranged between"
+            },
+            {
+                "source": "third",
+                "target": "particular translatory",
+                "label": "in"
+            },
+            {
+                "source": "holder",
+                "target": "gradually brake movement",
+                "label": "is configured to"
+            }
+        ]
+    },
+    "Markers": {
+        "Combinations": [
+            "apparatus",
+            "test vehicle",
+            "wheel adapter element",
+            "particular translatory",
+            "holding device",
+            "any desired position",
+            "in particular a working position",
+            "gradually brake movement",
+            "desired position",
+            "disc brake",
+            "brake disc or brake disc segment",
+            "lever element",
+            "first actuator",
+            "pivot axis",
+            "transmission element",
+            "in particular a coupling rod",
+            "second loading arrangement",
+            "third loading arrangement",
+            "third",
+            "transmission elements",
+            "at least one fixing element",
+            "holder",
+            "at least one elastic buffer element"
+        ],
+        "Heads": [
+            "apparatus"
+        ],
+        "Branches": {
+            "apparatus": [
+                "10UG (apparatus, test vehicle)",
+                "10UG (apparatus, wheel adapter element, test vehicle)",
+                "10UG (apparatus, wheel adapter element, particular translatory, holding device, disc brake, brake disc or brake disc segment)",
+                "10UG (apparatus, wheel adapter element, particular translatory, holding device, disc brake)",
+                "10UG (apparatus, wheel adapter element, particular translatory, holding device, at least one fixing element)",
+                "10UG (apparatus, wheel adapter element, particular translatory, holding device, at least one elastic buffer element)",
+                "10UG (apparatus, wheel adapter element, particular translatory, holding device)",
+                "10UG (apparatus, wheel adapter element, particular translatory)",
+                "10UG (apparatus, wheel adapter element, third, particular translatory, holding device, disc brake, brake disc or brake disc segment)",
+                "10UG (apparatus, wheel adapter element, third, particular translatory, holding device, disc brake)",
+                "10UG (apparatus, wheel adapter element, third, particular translatory, holding device, at least one fixing element)",
+                "10UG (apparatus, wheel adapter element, third, particular translatory, holding device, at least one elastic buffer element)",
+                "10UG (apparatus, wheel adapter element, third, particular translatory, holding device)",
+                "10UG (apparatus, wheel adapter element, third, particular translatory)",
+                "10UG (apparatus, wheel adapter element, third)",
+                "10UG (apparatus, wheel adapter element)",
+                "10UG (apparatus, second loading arrangement)",
+                "10UG (apparatus, any desired position)",
+                "10UG (apparatus, in particular a working position)",
+                "10UG (apparatus, gradually brake movement)",
+                "10UG (apparatus, desired position)",
+                "10UG (apparatus, disc brake, brake disc or brake disc segment)",
+                "10UG (apparatus, disc brake)",
+                "10UG (apparatus, brake disc or brake disc segment)",
+                "10UG (apparatus, lever element, first actuator)",
+                "10UG (apparatus, lever element)",
+                "10UG (apparatus, first actuator)",
+                "10UG (apparatus, pivot axis)",
+                "10UG (apparatus, transmission element)",
+                "10UG (apparatus, in particular a coupling rod)",
+                "10UG (apparatus, third loading arrangement)",
+                "10UG (apparatus, third, particular translatory, holding device, disc brake, brake disc or brake disc segment)",
+                "10UG (apparatus, third, particular translatory, holding device, disc brake)",
+                "10UG (apparatus, third, particular translatory, holding device, at least one fixing element)",
+                "10UG (apparatus, third, particular translatory, holding device, at least one elastic buffer element)",
+                "10UG (apparatus, third, particular translatory, holding device)",
+                "10UG (apparatus, third, particular translatory)",
+                "10UG (apparatus, third)",
+                "10UG (apparatus, transmission elements)",
+                "10UG (apparatus, at least one fixing element)",
+                "10UG (apparatus, holder, gradually brake movement)",
+                "10UG (apparatus, holder)",
+                "10UG (apparatus, at least one elastic buffer element)"
+            ]
+        }
     }
 }
